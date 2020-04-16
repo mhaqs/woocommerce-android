@@ -343,8 +343,9 @@ theme across the entire app. Overridden versions should be added to the styles.x
     <!-- Set at the theme level so no need to set directly on the component -->
     <style name="Widget.Woo.WCToggleOutlinedSelectorButton" parent="Widget.Woo.WCToggleOutlinedButton">
         <item name="android:drawableEnd">@drawable/ic_arrow_drop_down_black</item>
+        <item name="android:drawableTint">@color/color_on_surface_medium</item>
+        <item name="android:drawableTintMode">src_atop</item>
         <item name="android:paddingEnd">@dimen/minor_100</item>
-        <item name="drawableTint">@color/color_on_surface_medium</item>
     </style>
 
     <!--
